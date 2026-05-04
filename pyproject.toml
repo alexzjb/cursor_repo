@@ -1,0 +1,10 @@
+[project]
+name = "mini-openclaw"
+version = "0.1.0"
+description = "A from-scratch, simplified OpenClaw-style local assistant gateway."
+requires-python = ">=3.11"
+license = "MIT"
+readme = "README.md"
+
+[project.scripts]
+mini-openclaw = "mini_openclaw.cli:main"
